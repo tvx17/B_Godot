@@ -1,0 +1,16 @@
+config_version=5
+
+[application]
+config/name="Pocket Rooms — Idle Starter"
+run/main_scene="res://scenes/main.tscn"
+
+[display]
+window/size/viewport_width=960
+window/size/viewport_height=720
+window/stretch/mode="canvas_items"
+window/handheld/orientation=0
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+environment/defaults/default_clear_color=Color(0.045, 0.065, 0.11, 1)
